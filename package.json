@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "cz": "git-cz",
+		"version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+        "travis-deploy-once": "travis-deploy-once",
+        "semantic-release": "semantic-release"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}

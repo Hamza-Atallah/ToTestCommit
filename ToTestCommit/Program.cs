@@ -10,6 +10,7 @@ namespace ToTestCommit
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("TEST ");
         }
     }
 }
